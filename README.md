@@ -132,4 +132,4 @@ Add a button to each comment row that permanently hides the comment. Do this loc
 ### Persist hidden comments (30 points)
 Persist hidden comments (IE if you hide a comment it should stay hidden even if your user closes and reopens the app). Do this locally.
 
-If you made it this far, congratulations! This concludes the main part of test. When you're finished, create a repository with your code and email a link to isaacw@hstk.com. Or if you wish, you can zip the project, upload to google drive and share it that way.
+If you made it this far, congratulations! This concludes the test. When you're finished, create a repository with your code and email a link to isaacw@hstk.com, and CC joshh@hstk.com and juliah@hstk.com. Or if you wish, you can zip the project, upload to google drive and share it that way. Just remember to email it to us three. 
