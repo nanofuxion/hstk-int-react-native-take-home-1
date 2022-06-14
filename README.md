@@ -123,22 +123,24 @@ Fetch the posts from `https://jsonplaceholder.typicode.com/posts` to show the us
 ### Activity Indicator (30 points)
 Show an `<ActivityIndicator/>` while the data is being fetched using some flatlist prop.
 
-### Search By Title (10 points)
+### Search By Title (50 points)
 Add a `<TextInput>` to the screen that allows users to search for posts by their title. It should behave as follows:
 
-- Any time the user types text into the text input the app filters out posts that don't include the text *locally*. Don't refetch any data, just change which posts are displayed.
+- Any time the user types text into the text input the app filters out posts that don't include the search text in the body. Do so *locally*. Don't refetch any data, just change which posts are displayed.
+- This should be case insensitive for both the input and the text of the post. (Doesn't matter if input text is has uppercase letter, doesn't matter if post body has uppercase letter, behavior should be the same).
 - If the text input's value is the empty string all posts are shown.
 - The text input should not render if the data hasn't yet loaded.
+- Render a `<Text/>` component that says `No Results` when there is post 
 
 The text input should scroll when the rest of the list scrolls. Check out https://reactnative.dev/docs/flatlist for more info.
 
 ## Part Three
 Please copy and paste all code from `PartTwo.js` into `PartThree.js` before beginning this section.
 
-### Navigate to PartThreeDetail.js (30 points)
+### Navigate to PartThreeDetail.js (50 points)
 Make it so each row in the flatlist is now pressable, and when the user presses on the row the app navigates to the component in `PartThreeDetail.js`, passing the `id` of the post as a navigation parameter, *do not pass anything other than the post id as a navigation parameter*.
 
-### Post Details (30 points)
+### Post Details (50 points)
 In `PartThreeDetail.js`, fetch the post data using the `id` that's been passed as a navigation parameter. Do not fetch all of the posts again, only fetch the post with the given id. Documentation is somewhere on `https://jsonplaceholder.typicode.com/`. Remember to use the `hstkFetch` function for fetching.
 
 Show the `title` and the `body` of the post on this screen after fetching.
