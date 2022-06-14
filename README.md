@@ -94,6 +94,8 @@ Add 12 padding to each row.
 
 Add an icon to each row to the left of the text (text should still be in a vertical column).
 
+The max width of the text should not exceed 50% of the row width.
+
 Add a chevron on the far right side of the row, keeping the rest of the content left aligned. The layout should be similar to that of the rows on the main screen of the app:
 
 ![Screen Shot 2022-06-14 at 1 59 42 PM](https://user-images.githubusercontent.com/12774588/173668051-581dcad4-ab53-4d09-a95f-3a242594ddc1.png)
@@ -108,6 +110,13 @@ You can (and please do) use the icons in `@expo/vector-icons` that are already i
 ```js
 <AntDesign name='right' size={24}/>
 ```
+
+You can use any icon for the left side icon.
+
+**Hint**
+It should look something like this one you're done:
+
+![Screen Shot 2022-06-14 at 2 09 18 PM](https://user-images.githubusercontent.com/12774588/173669680-e9ca4111-f854-4dd5-9d1f-0cc3528dfa75.png)
 
 ## Part Two
 At this point, *copy and paste all of your code from PartOne.js into PartTwo.js*. Do not modify `PartOne.js` after this. Work on `PartTwo.js` for part two.
