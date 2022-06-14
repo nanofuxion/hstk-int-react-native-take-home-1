@@ -104,7 +104,7 @@ The big difference is that we now have some vertically stacked text.
 
 You should use two `<Text/>` components to create the verically stacked text. Do not use 1 text component with a line break.
 
-**Hint**
+**(Hint)**
 You can (and please do) use the icons in `@expo/vector-icons` that are already installed in the project for the icons. For the chevron you can use the `AntDesign` component:
 
 ```js
@@ -113,7 +113,8 @@ You can (and please do) use the icons in `@expo/vector-icons` that are already i
 
 You can use any icon for the left side icon.
 
-**Hint**
+**(Hint)**
+
 It should look something like this one you're done:
 
 ![Screen Shot 2022-06-14 at 2 09 18 PM](https://user-images.githubusercontent.com/12774588/173669680-e9ca4111-f854-4dd5-9d1f-0cc3528dfa75.png)
@@ -128,10 +129,6 @@ Fetch the posts from `https://jsonplaceholder.typicode.com/posts` to show the us
 
 ### Activity Indicator (30 points)
 Show an `<ActivityIndicator/>` while the data is being fetched using some flatlist prop.
-
-Optionally:
-
-- (30 points) implement any state management related to the activity indicator (such as setting the fetch status state variable) in a custom hook or using a third party library (like `react-query`).
 
 ### Search By Title (10 points)
 Add a `<TextInput>` to the screen that allows users to search for posts by their title. It should behave as follows:
