@@ -56,9 +56,13 @@ If you fail to complete all tasks that doesn't necessarily mean you wont be able
 
 Please complete each task in the corresponding component file in "src/screens". You can create as many files as you'd like and put them anywhere you'd like, just make sure the question is answered in the screen file itself and can still be navigated too from `MainScreen.js`. 
 
-You may download and use any third party libraries that you want. No points are given for styling so feel free to not style anything at all. We value simple, straight forward solutions more than anything else.
+You may download and use any third party libraries that you want. No points are given for styling other than styling that is explicitly included in one of the questions, so feel free to not style anything at all. 
+
+We value simple, straight forward solutions more than anything else.
 
 ***For data fetching use hstkFetch exported from `src/hstkFetch.js` instead of the typical `fetch` or any other solution. hstkFetch works exactly like javascript's built in fetch except that it simulates a one second reponse delay.***
+
+You are not expected to handle errors for any requests that fail for some reason other than what happened in your code. Feel free to make any fetch requests inside of a `useEffect` callback for this challenge (although generally speaking you may not want to do that).
 
 ## Part One
 Put all your work in `PartOne.js`
@@ -130,9 +134,9 @@ Add a `<TextInput>` to the screen that allows users to search for posts by their
 - This should be case insensitive for both the input and the text of the post. (Doesn't matter if input text is has uppercase letter, doesn't matter if post body has uppercase letter, behavior should be the same).
 - If the text input's value is the empty string all posts are shown.
 - The text input should not render if the data hasn't yet loaded.
-- Render a `<Text/>` component that says `No Results` when there is post 
+- Render a `<Text/>` component that says `No Results` when there are no posts containing the search text.
 
-The text input should scroll when the rest of the list scrolls. Check out https://reactnative.dev/docs/flatlist for more info.
+Also, the text input should scroll when the rest of the list scrolls preferably (10 points). Check out https://reactnative.dev/docs/flatlist for more info.
 
 ## Part Three
 Please copy and paste all code from `PartTwo.js` into `PartThree.js` before beginning this section.
@@ -150,12 +154,12 @@ Fetch all comments for the given post `id` and display them in a flatlist. Check
 
 Show the `email` and `body` text in each item in the flatlist. 
 
-Do not fetch any posts that do not have the post id that was passed as a navigation parameter.
+Do not fetch any comments that do not have the post id that was passed as a navigation parameter.
 
 ### Hide Comment Button (30 points)
 Add a button to each comment row that permanently hides the comment. Do this locally (don't communicate with jsonplaceholder)
 
-### Persist hidden comments (30 points)
+### BONUS CHALLENGE - Persist hidden comments (30 points)
 Persist hidden comments (IE if you hide a comment it should stay hidden even if your user closes and reopens the app). Do this locally.
 
-If you made it this far, congratulations! This concludes the test. When you're finished, create a repository with your code and email a link to isaacw@hstk.com, and CC joshh@hstk.com and juliah@hstk.com. Or if you wish, you can zip the project, upload to google drive and share it that way. Just remember to email it to us three. 
+If you made it this far, congratulations! This concludes the test. When you're finished, create a repository with your code and email a link to isaacw@hstk.com, and CC joshh@hstk.com and juliah@hstk.com. Or if you wish, you can zip the project, upload to google drive and share it that way. Just remember to email it to us three. Thanks!
