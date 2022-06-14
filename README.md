@@ -82,13 +82,6 @@ Render a flatlist that show the "title" and "id" of each post in order, importin
 
 Display the text in a column (title should be below id visually).
 
-### Show More Button (10 points)
-Modify the screen in PartOne.js to include a `Show More` button at the bottom of the flatlist. It should work like this:
-
-- Show the first 10 posts in the flatlist initially.
-- If the user presses `Show More` the flatlist will show all of the posts.
-- The show more button will dissapear after being pressed.
-
 ### Make it prettier (20 points)
 Add 12 padding to each row. 
 
