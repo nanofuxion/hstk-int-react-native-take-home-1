@@ -54,7 +54,7 @@ You will be scored based on completion of the tasks below. Scores are for us to 
 
 If you fail to complete all tasks that doesn't necessarily mean you wont be able to move forward in the interview process.
 
-Please complete each task in the corresponding component file in "src/screens". You can create as many files as you'd like and put them anywhere you'd like, just make sure the question is effectively answered in the screen file. 
+Please complete each task in the corresponding component file in "src/screens". You can create as many files as you'd like and put them anywhere you'd like, just make sure the question is answered in the screen file itself and can still be navigated too from `MainScreen.js`. 
 
 You may download and use any third party libraries that you want. No points are given for styling so feel free to not style anything at all. We value simple, straight forward solutions more than anything else.
 
