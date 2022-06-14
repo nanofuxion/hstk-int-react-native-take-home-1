@@ -40,6 +40,8 @@ npm run android
 ## Take Home Test Structure
 This app is already setup with a few things. The first screen you see should look something like this: 
 
+![simulator_screenshot_F3652E6F-6BC5-4C4D-907E-8321D22214EC](https://user-images.githubusercontent.com/12774588/173663744-f48faeb8-ddaa-4d87-b5a0-1dfe78f8a140.png)
+
 The buttons on this screen will navigate to three separate screens, each corresponding to a section of the test. The screens will be blank initially, it is your job to build the screens in order to meet the requirements of each section of the test. Please make sure that all of your work renders into the components exported by each of these three screen files `PartOne.js`, `PartTwo.js` and `PartThree.js`. You may create new files if you want. Please do not modify `MainScreen.js`, but you can modify any other files as necessary.
 
 
