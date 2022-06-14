@@ -52,7 +52,7 @@ In this test you'll be working with placeholder data from a backend found here: 
 
 You will be scored based on completion of the tasks below. Scores are for us to communicate to you how heavily we weight each task and help you decide whether or not you want to attempt to complete each task, in case you get stuck and need to skip to the next task. 
 
-If you fail to complete all required tasks that doesn't necessarily mean you wont be able to move forward in the interview process.
+If you fail to complete all tasks that doesn't necessarily mean you wont be able to move forward in the interview process.
 
 Please complete each task in the corresponding component file in "src/screens". You can create as many files as you'd like and put them anywhere you'd like, just make sure the question is effectively answered in the screen file. 
 
@@ -63,7 +63,7 @@ You may download and use any thid party libraries that you want. No points are g
 ## Part One
 Put all your work in `PartOne.js`
 
-### Flatlist (required, 10 points)
+### Flatlist (10 points)
 We're going to be working with "posts" data which are a json object containing a title and body. You can think of them as a facebook post, or something like that.
 
 A single post looks like this:
