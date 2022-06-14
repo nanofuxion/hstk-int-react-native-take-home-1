@@ -128,6 +128,7 @@ Add a `<TextInput>` to the screen that allows users to search for posts by their
 
 - Any time the user types text into the text input the app filters out posts that don't include the text *locally*. Don't refetch any data, just change which posts are displayed.
 - If the text input's value is the empty string all posts are shown.
+- The text input should not render if the data hasn't yet loaded.
 
 The text input should scroll when the rest of the list scrolls. Check out https://reactnative.dev/docs/flatlist for more info.
 
