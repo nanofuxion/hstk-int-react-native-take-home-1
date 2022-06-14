@@ -80,12 +80,30 @@ There is an array of posts contained in the file `src/localPlaceholderData.js`.
 
 Render a flatlist that show the "title" and "id" of each post in order, importing the data from `src/localPlaceholderData.js`.
 
+Display the text in a column (title should be below id visually).
+
 ### Show More Button (10 points)
 Modify the screen in PartOne.js to include a `Show More` button at the bottom of the flatlist. It should work like this:
 
 - Show the first 10 posts in the flatlist initially.
 - If the user presses `Show More` the flatlist will show all of the posts.
 - The show more button will dissapear after being pressed.
+
+### Make it prettier (20 points)
+Add 12 padding to each row. 
+
+Add an icon to each row to the left of the text (text should still be in a vertical column).
+
+Add a chevron on the far right side of the row, keeping the rest of the content left aligned. The layout should be similar to that of the rows on the main screen of the app:
+
+![Screen Shot 2022-06-14 at 1 59 42 PM](https://user-images.githubusercontent.com/12774588/173668051-581dcad4-ab53-4d09-a95f-3a242594ddc1.png)
+
+**Hint**
+You can use the icons in `@expo/vector-icons` that are already installed in the project. For the chevron you can use the `AntDesign` component:
+
+```js
+<AntDesign name='right' size={24}/>
+```
 
 ## Part Two
 At this point, *copy and paste all of your code from PartOne.js into PartTwo.js*. Do not modify `PartOne.js` after this. Work on `PartTwo.js` for part two.
