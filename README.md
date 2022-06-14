@@ -56,7 +56,7 @@ If you fail to complete all tasks that doesn't necessarily mean you wont be able
 
 Please complete each task in the corresponding component file in "src/screens". You can create as many files as you'd like and put them anywhere you'd like, just make sure the question is effectively answered in the screen file. 
 
-You may download and use any thid party libraries that you want. No points are given for styling so feel free to not style anything at all. We value simple, straight forward solutions more than anything else.
+You may download and use any third party libraries that you want. No points are given for styling so feel free to not style anything at all. We value simple, straight forward solutions more than anything else.
 
 ***For data fetching use hstkFetch exported from `src/hstkFetch.js` instead of the typical `fetch` or any other solution. hstkFetch works exactly like javascript's built in fetch except that it simulates a one second reponse delay.***
 
