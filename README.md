@@ -98,8 +98,12 @@ Add a chevron on the far right side of the row, keeping the rest of the content 
 
 ![Screen Shot 2022-06-14 at 1 59 42 PM](https://user-images.githubusercontent.com/12774588/173668051-581dcad4-ab53-4d09-a95f-3a242594ddc1.png)
 
+The big difference is that we now have some vertically stacked text. 
+
+You should use two `<Text/>` components to create the verically stacked text. Do not use 1 text component with a line break.
+
 **Hint**
-You can use the icons in `@expo/vector-icons` that are already installed in the project. For the chevron you can use the `AntDesign` component:
+You can (and please do) use the icons in `@expo/vector-icons` that are already installed in the project for the icons. For the chevron you can use the `AntDesign` component:
 
 ```js
 <AntDesign name='right' size={24}/>
