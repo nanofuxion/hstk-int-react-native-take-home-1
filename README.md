@@ -1,6 +1,6 @@
 # HSTK React Native Take Home Test
 
-<img width="328" alt="Screen Shot 2022-06-14 at 1 36 04 PM" src="https://user-images.githubusercontent.com/12774588/173663962-91df5cb1-edb4-422f-88fb-023a80d6fd2d.png">
+<img width="328" style="margin: auto" alt="Screen Shot 2022-06-14 at 1 36 04 PM" src="https://user-images.githubusercontent.com/12774588/173663962-91df5cb1-edb4-422f-88fb-023a80d6fd2d.png">
 
 ## Preliminary
 
