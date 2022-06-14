@@ -12,7 +12,7 @@ Before starting you'll need expo / react native installed on your computer. Chec
 To get started clone the repo:
 
 ```
-git clone
+git clone https://github.com/iway1/hstk-takehome
 ```
 
 Install node modules:
