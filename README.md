@@ -88,7 +88,7 @@ Modify the screen in PartOne.js to include a `Show More` button at the bottom of
 - The show more button will dissapear after being pressed.
 
 ## Part Two
-At this point, *copy and past all of your code from PartOne.js into PartTwo.js*. Do not modify `PartOne.js` after this. Work on `PartTwo.js` for part two.
+At this point, *copy and paste all of your code from PartOne.js into PartTwo.js*. Do not modify `PartOne.js` after this. Work on `PartTwo.js` for part two.
 
 ### Fetching Data (20 points)
 Now we would like to fetch data from our backend to show to our users instead of using the data from `src/localPlaceholderData.js`
