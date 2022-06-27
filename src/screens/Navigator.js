@@ -1,6 +1,7 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import PartOne from "./test/PartOne";
 import PartThree from "./test/PartThree";
+import PartThreeDetail from "./test/PartThreeDetail";
 import PartTwo from "./test/PartTwo";
 import MainScreen from "./MainScreen";
 
@@ -28,6 +29,10 @@ export default function Navigator() {
             <Stack.Screen 
                 component={PartThree}
                 name='part-three'
+            />
+            <Stack.Screen 
+                component={PartThreeDetail}
+                name='part-three-detail'
             />
         </Stack.Navigator>
     )
